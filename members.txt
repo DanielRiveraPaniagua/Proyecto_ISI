@@ -1,1 +1,27 @@
+<<<<<<< HEAD
 prueba
+=======
+Pedro de las Heras Quirós @sarehp
+
+Grupo "Friends" (1)
+	Ángela Isabel de Andrés
+	Ana Rozalén Gallego
+	Daniel Polo Álvarez (Collaborator)
+
+Grupo
+
+Grupo (3)
+	Oscar Escudero Arnanz (Collaborator)
+	Felipe Cordente Romero
+	Jose Angel Garcia Navas Requena
+
+Grupo
+
+Grupo (5)
+	Daniel Rivera Paniagua (Collaborator)
+	Javier Bravo Donaire
+	Adrián Omar Riao Monsalve
+
+Grupo 
+
+>>>>>>> upstream/master
