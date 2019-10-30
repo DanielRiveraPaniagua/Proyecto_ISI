@@ -16,5 +16,8 @@ Grupo (5)
 	Javier Bravo Donaire
 	Adrián Omar Riao Monsalve
 
-Grupo
+Grupo (3)
+	Oscar Escudero Arnanz (Collaborator)
+	Felipe Cordente Romero
+	Jose Angel Garcia Navas Requena
 
