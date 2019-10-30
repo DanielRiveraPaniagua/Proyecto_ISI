@@ -1,3 +1,5 @@
+.open baloncesto
+
 CREATE TABLE Pertenecen(
 	Nombre_Equipo VARCHAR(50) NOT NULL,
 	nif VARCHAR(10) NOT NULL,
