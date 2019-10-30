@@ -7,7 +7,10 @@ Grupo "Friends" (1)
 
 Grupo
 
-Grupo
+Grupo (3)
+	Oscar Escudero Arnanz (Collaborator)
+	Felipe Cordente Romero
+	Jose Angel Garcia Navas Requena
 
 Grupo
 
@@ -16,8 +19,5 @@ Grupo (5)
 	Javier Bravo Donaire
 	Adrián Omar Riao Monsalve
 
-Grupo (3)
-	Oscar Escudero Arnanz (Collaborator)
-	Felipe Cordente Romero
-	Jose Angel Garcia Navas Requena
+Grupo 
 
