@@ -22,5 +22,10 @@ Grupo (5)
 	Javier Bravo Donaire
 	Adrián Omar Riao Monsalve
 
+Grupo (6)
+	Ismael Gómez Talal (Collaborator)
+	Daniel Arévalo Rodrigo
+	Daniel Cabezas Recio
+	Razvan Alexandru Copaceanu
 	
 	
