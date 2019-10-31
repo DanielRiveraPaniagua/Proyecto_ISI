@@ -1,3 +1,7 @@
+# Instrucciones para subir los scripts
+
+* Cada grupo subirá una carpeta con sus script en formato nombrescript.sql
+
 # Diagrama ER de una liga de baloncesto
 *  En el Reino de España tiene lugar una liga de baloncesto a nivel nacional.
 *  En el reino hay ciudades, y cada ciudad está en una comunidad autónoma. No hay dos ciudades con el mismo
