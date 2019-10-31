@@ -1,6 +1,7 @@
-# Instrucciones para subir los scripts
+# Requisitos de las tablas
 
-* Cada grupo subirá una carpeta con sus script en formato nombrescript.sql
+* Cada grupo subirá una carpeta con sus tablas en formato nombrescript.sql
+* Las carpetas llevarán nombre tipo grupo_# siendo (# el número del grupo)
 
 # Diagrama ER de una liga de baloncesto
 *  En el Reino de España tiene lugar una liga de baloncesto a nivel nacional.
