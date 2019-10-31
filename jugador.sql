@@ -1,3 +1,4 @@
+.open baloncesto.db
 CREATE TABLE Jugador(
 	nif VARCHAR(10),
 	nombre VARCHAR(50),
