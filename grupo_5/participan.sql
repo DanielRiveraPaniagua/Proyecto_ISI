@@ -1,3 +1,5 @@
+.open baloncesto.db
+
 Create table participan
 (nif Char(10) NOT NULL,
  anyio int NOT NULL,
