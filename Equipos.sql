@@ -1,5 +1,4 @@
-.open baloncesto
-
+.open baloncesto.db
 CREATE TABLE Equipos (
 	ID INT NOT NULL,
 	Nombre_Equipo VARCHAR(50) NOT NULL,
