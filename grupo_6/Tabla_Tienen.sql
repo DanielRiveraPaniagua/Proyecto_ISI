@@ -7,7 +7,4 @@ CREATE TABLE Tienen(
 	FOREIGN KEY(Nombre_Equipo) REFERENCES Equipos(Nombre_Equipo),
 	FOREIGN KEY(Nombre_Ciudad) REFERENCES Ciudades(nombre));
 
-INSERT INTO Tienen VALUES ("Huesca","Madrid");
-INSERT INTO Tienen VALUES ("Real Sociedad","Barcelona");
-INSERT INTO Tienen VALUES ("Real Madrid","Cadiz");
 
