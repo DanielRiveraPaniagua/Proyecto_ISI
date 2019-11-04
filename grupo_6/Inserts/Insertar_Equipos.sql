@@ -1,5 +1,3 @@
-.open baloncesto.db
-
 INSERT INTO Equipos VALUES (1, "Club Leon");
 INSERT INTO Equipos VALUES (2, "Real Orense");
 INSERT INTO Equipos VALUES (3, "Club Girona");

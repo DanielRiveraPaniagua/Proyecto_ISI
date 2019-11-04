@@ -1,5 +1,3 @@
-.open baloncesto.db
-
 CREATE TABLE Tienen(
 	Nombre_Equipo VARCHAR(50) NOT NULL,
 	Nombre_Ciudad VARCHAR(30) NOT NULL,
