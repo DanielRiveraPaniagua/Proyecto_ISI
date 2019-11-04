@@ -1,4 +1,12 @@
-Nombre tabla
--
--
--
+Equipos
+-ID 
+-Nombre_Equipo
+
+
+Pertenecen
+-Nombre_Equipo
+-nif
+
+Tienen
+-Nombre_Equipo
+-Nombre_Equipo
