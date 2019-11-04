@@ -1,3 +1,4 @@
+.open baloncesto.db
 CREATE TABLE partido(
 	id_partido INT NOT NULL,
 	PRIMARY KEY(id_partido)

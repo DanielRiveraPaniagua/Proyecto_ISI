@@ -1,3 +1,4 @@
+.open baloncesto.db
 CREATE TABLE juegan(
 	nombre_equipo VARCHAR(50),
 	id_partido INT,
