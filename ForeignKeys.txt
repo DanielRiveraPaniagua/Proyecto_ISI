@@ -1,0 +1,16 @@
+- Ciudades
+	- Madrid
+	- Valencia
+	- Barcelona
+	- Leon
+	- Girona
+	- Orense
+
+- Comunidades_Autonomas
+	- Comunida de Madrid
+	- Comunidad Valenciana
+	- Cataluña
+	- Castilla y Leon
+	- Galicia
+	
+	
