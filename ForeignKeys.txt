@@ -33,3 +33,13 @@ entrenador.sql
 GRUPO 4:
 Tabla Empresas (cif): '12345' | '12465' | '54534' | '32532' | '12421' .
 Tabla Campeonato (anyo): 2018 | 2019 | 2020 .
+
+Partido: id_partido
+1826
+2536
+
+Equipos: id, nombre_equipo
+1, Huesca
+2, Real Sociedad
+3, Alaves
+4, Real Madrid
