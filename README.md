@@ -2,6 +2,7 @@
 
 * Cada grupo subirá una carpeta con sus tablas en formato nombrescript.sql
 * Las carpetas llevarán nombre tipo grupo_# siendo (# el número del grupo)
+* Un script leerá las tablas
 * Los .sql de creación de tabla estarán dentro de una carpeta llamada Creacion_tablas
 * Los .sql de inserts se separarán en otra carpeta llamada Inserts
 
