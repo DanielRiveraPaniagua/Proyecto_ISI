@@ -7,3 +7,7 @@ CREATE TABLE patrocinado_por(
 	FOREIGN KEY(CIF) REFERENCES Empresas(cif),
 	FOREIGN KEY(Nombre_Equipo) REFERENCES Equipos(Nombre_Equipo)
 );
+
+INSERT INTO patrocinado_por VALUES ('12345',"Huesca");
+INSERT INTO patrocinado_por VALUES ('12465',"Real Sociedad");
+INSERT INTO patrocinado_por VALUES ('54534',"Alavés");
