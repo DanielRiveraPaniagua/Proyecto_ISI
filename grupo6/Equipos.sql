@@ -6,8 +6,4 @@ CREATE TABLE Equipos (
 	PRIMARY KEY(Nombre_Equipo)
 );
 
-INSERT INTO Equipos VALUES (1,"Huesca");
-INSERT INTO Equipos VALUES (2,"Real Sociedad");
-INSERT INTO Equipos VALUES (3,"Alavés");
-INSERT INTO Equipos VALUES (4, "Real Madrid");
 
