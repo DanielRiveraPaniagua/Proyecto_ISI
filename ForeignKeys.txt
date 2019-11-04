@@ -1,3 +1,4 @@
+
 - Ciudades
 	- Madrid
 	- Valencia
@@ -12,5 +13,8 @@
 	- Cataluña
 	- Castilla y Leon
 	- Galicia
-	
-	
+
+GRUPO 4:
+Tabla Empresas (cif): '12345' | '12465' | '54534' | '32532' | '12421' .
+Tabla Campeonato (anyo): 2018 | 2019 | 2020 .
+

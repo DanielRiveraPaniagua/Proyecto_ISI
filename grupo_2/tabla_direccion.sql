@@ -1,3 +1,4 @@
+.open baloncesto.db
 CREATE TABLE `Direccion` (
 	`id_cancha`	INTEGER NOT NULL,
 	`ciudad`	TEXT NOT NULL,
