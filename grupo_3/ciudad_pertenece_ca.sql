@@ -1,3 +1,4 @@
+.open baloncesto.db
 CREATE TABLE Pertenece (
 Comunidad_Autonoma VARCHAR(30),
 nombre VARCHAR(30),

@@ -1,3 +1,4 @@
+.open baloncesto.db
 CREATE TABLE `pertenece` (
 `id_cancha` INTEGER NOT NULL,
 `nombre` TEXT NOT NULL,
