@@ -1,3 +1,4 @@
+
 jugador.sql
   03948918B
   19286756G
@@ -38,8 +39,33 @@ Partido: id_partido
 1826
 2536
 
+GRUPO 6:
+
 Equipos: id, nombre_equipo
-1, Huesca
-2, Real Sociedad
-3, Alaves
+1, Club Leon
+2, Real Orense
+3, Club Girona
 4, Real Madrid
+5, FC Barcelona
+6, Valecia Basket
+
+Pertenecen: nif, nombre_equipo
+03948918B, Real Madrid
+19286756G, Club Girona
+62655654F, Valencia Basket
+65655644T, Club Leon
+47889965R, FC Barcelona
+55874126S, Real Madrid
+01915745T, FC Barcelona
+23665177U, Valencia Basket
+54364753W, Real Orense
+
+Tienen: Nombre_Equipo, Nombre_Ciudad
+
+Club Leon, Leon
+Real Orense, Orense
+Club Girona, Girona
+Real Madrid, Madrid
+FC Barcelona, Barcelona
+Valecia Basket, Valencia
+
