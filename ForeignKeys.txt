@@ -1,0 +1,14 @@
+Nombre tabla
+-
+-
+-
+
+Partido: id_partido
+1826
+2536
+
+Equipos: id, nombre_equipo
+1, Huesca
+2, Real Sociedad
+3, Alaves
+4, Real Madrid
