@@ -5,5 +5,5 @@ CREATE TABLE patrocinado_por(
 	Nombre_Equipo VARCHAR(50),
 	PRIMARY KEY(CIF, Nombre_Equipo),
 	FOREIGN KEY(CIF) REFERENCES Empresas(cif),
-	FOREGIN KEY(Nombre_Equipo) REFERENCES Equipos(Nombre_Equipo)
+	FOREIGN KEY(Nombre_Equipo) REFERENCES Equipos(Nombre_Equipo)
 );
