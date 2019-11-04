@@ -1,0 +1,35 @@
+jugador.sql
+  03948918B
+  19286756G
+  62655654F
+  65655644T
+  47889965R
+  55874126S
+  01915745T
+  23665177U
+  54364753W
+  
+entrenador.sql
+  23458755W
+  66897441H
+  97412365K
+  78946321R
+
+- Ciudades
+	- Madrid
+	- Valencia
+	- Barcelona
+	- Leon
+	- Girona
+	- Orense
+
+- Comunidades_Autonomas
+	- Comunida de Madrid
+	- Comunidad Valenciana
+	- Cataluña
+	- Castilla y Leon
+	- Galicia
+
+GRUPO 4:
+Tabla Empresas (cif): '12345' | '12465' | '54534' | '32532' | '12421' .
+Tabla Campeonato (anyo): 2018 | 2019 | 2020 .
