@@ -2,7 +2,7 @@
 
 * Cada grupo subirá una carpeta con sus tablas en formato nombrescript.sql
 * Las carpetas llevarán nombre tipo grupo_# siendo (# el número del grupo)
-* Los .sql de creación de tabla estarán dentro de una carpeta llamada Creación_tablas
+* Los .sql de creación de tabla estarán dentro de una carpeta llamada Creacion_tablas
 * Los .sql de inserts se separarán en otra carpeta llamada Inserts
 
 # Diagrama ER de una liga de baloncesto
