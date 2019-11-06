@@ -1,5 +1,3 @@
-.open baloncesto.db
-
 Create table participan
 (nif Char(10) NOT NULL,
  anyio int NOT NULL,
@@ -7,6 +5,6 @@ Create table participan
 	ON DELETE CASCADE,
  FOREIGN KEY (nif) References entrenadores(nif),
 	ON DELETE CASCADE,
- FOREIGN KEY (anyio) References campeonato(anyio),
+ FOREIGN KEY (anyo) References campeonato(anyio),
 	ON DELETE CASCADE,
- PRIMARY KEY(nif, anyio));
+ PRIMARY KEY(nif, anyo));
