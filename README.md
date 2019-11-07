@@ -3,9 +3,7 @@
 * Cada grupo subirá una carpeta con sus tablas en formato nombrescript.sql
 * Las carpetas llevarán nombre tipo grupo_# siendo (# el número del grupo)
 * Un script leerá las tablas.
-* Para que no haya conflictos entre la creación de tablas y los inserts, los separaremos en dos archivos. Primero leeremos todas las tablas y después todo los inserts.
-* Los .sql de creación de tabla estarán dentro de una carpeta llamada Creacion_tablas
-* Los .sql de inserts se separarán en otra carpeta llamada Inserts
+* Todos los .sql se encontrarán dentro de las carpetas de cada grupo con una primera linea .open baloncesto.db
 
 # Diagrama ER de una liga de baloncesto
 *  En el Reino de España tiene lugar una liga de baloncesto a nivel nacional.
