@@ -1,5 +1,4 @@
-.open baloncesto.db
-CREATE TABLE `Canchas` (
-	`nombre`	TEXT NOT NULL,
-	PRIMARY KEY(`nombre`)
+CREATE TABLE Canchas (
+	nombre	TEXT NOT NULL,
+	PRIMARY KEY(nombre)
 );
