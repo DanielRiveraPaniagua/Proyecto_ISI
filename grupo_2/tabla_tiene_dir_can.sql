@@ -1,3 +1,4 @@
+.open baloncesto.db
 CREATE TABLE tiene_dir_can (
 	id_cancha	INTEGER NOT NULL,
 	nombre	TEXT NOT NULL,
