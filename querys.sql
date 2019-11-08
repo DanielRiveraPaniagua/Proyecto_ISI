@@ -1,3 +1,4 @@
+.open baloncesto.db
 select
 j.nombre||" "||j.apellidos,a.nombre_equipo
 from jugador as j
