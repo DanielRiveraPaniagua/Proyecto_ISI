@@ -8,3 +8,8 @@ CREATE TABLE juegan(
 	FOREIGN KEY (id_partido) REFERENCES partido(id_partido),
 	FOREIGN KEY (nombre_cancha) REFERENCES Canchas(nombre)
 );
+
+INSERT INTO juegan VALUES('Real Madrid', 1826, 'Wizink Center');
+INSERT INTO juegan VALUES('Club Leon', 2536, 'Palau Blaugrana');
+INSERT INTO juegan VALUES('Real Orense', 1826, 'Wizink Center');
+INSERT INTO juegan VALUES('Club Girona', 2536, 'Palau Blaugrana');
