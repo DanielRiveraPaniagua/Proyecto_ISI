@@ -20,7 +20,7 @@ JOIN juegan as j
 ON e.nombre_equipo = j.nombre_equipo
 JOIN canchas as c
 ON j.nombre_cancha = c.nombre
-ORDER BY e.nombre_equipo
+ORDER BY e.nombre_equipo;
 
 select E.nombre ||' con DNI: '|| E.nif ||' entrena al equipo: '|| eq.nombre_equipo ||' en ' || c.nombre ||' ('|| ca.comunidad_autonoma ||')'
 from Entrenador as E
