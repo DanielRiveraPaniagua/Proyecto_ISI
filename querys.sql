@@ -21,3 +21,16 @@ ON e.nombre_equipo = j.nombre_equipo
 JOIN canchas as c
 ON j.nombre_cancha = c.nombre
 ORDER BY e.nombre_equipo
+
+
+
+SELECT
+e.nombre_equipo, p.id_partido
+FROM partido AS p
+JOIN juegan AS j
+ON j.id_partido = p.id_partido
+JOIN equipos AS e
+ON e.nombre_equipo = j.nombre_equipo
+GROUP BY p.id_partido
+
+
