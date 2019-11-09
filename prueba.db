@@ -1,8 +1,0 @@
-select E.nombre ||' con DNI: '|| E.nif ||' entrena al equipo: '|| eq.nombre_equipo ||' en ' || c.nombre ||' ('|| ca.comunidad_autonoma ||')'
-from Entrenador as E
-inner join entrenan En on En.nif = E.nif 
-inner join Equipos eq on eq.nombre_equipo = En.nombre_equipo
-inner join tienen t on t.nombre_equipo = eq.nombre_equipo
-inner join Ciudades c on c.nombre = t.nombre_ciudad
-inner join ciudad_pertenece_ca cp on cp.nombre = c.nombre
-inner join comunidades_autonomas ca on ca.comunidad_autonoma = cp.comunidad_autonoma;
