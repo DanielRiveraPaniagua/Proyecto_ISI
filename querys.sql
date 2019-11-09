@@ -21,3 +21,9 @@ ON e.nombre_equipo = j.nombre_equipo
 JOIN canchas as c
 ON j.nombre_cancha = c.nombre
 ORDER BY e.nombre_equipo
+
+select
+c.nombre, ca.Comunidad_Autonoma
+from Ciudades as c
+join Ciudad_pertenece_ca as ca
+on ca.nombre = c.nombre;
