@@ -24,6 +24,6 @@ ORDER BY e.nombre_equipo
 
 select
 c.nombre, ca.Comunidad_Autonoma
-from Ciudades as c
-join Ciudad_pertenece_ca as ca
-on ca.nombre = c.nombre;
+from Ciudades as c, Comunidades_Autonomas as ca
+join Ciudad_pertenece_ca as cp
+on cp.nombre = c.nombre and cp.Comunidad_Autonoma = ca.Comunidad_Autonoma;
