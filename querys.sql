@@ -22,7 +22,7 @@ JOIN canchas as c
 ON j.nombre_cancha = c.nombre
 ORDER BY e.nombre_equipo;
 
-
+--las siguientes 3 queries, añadidas por el grupo 3
 select
 c.nombre, ca.Comunidad_Autonoma
 from Ciudades as c, Comunidades_Autonomas as ca
