@@ -25,6 +25,22 @@ where p.anyo = 2020
 order by j.nombre,j.apellidos;
 
 SELECT
+nombre || ' ' || apellidos,
+fecha_nacimiento
+FROM Entrenador
+WHERE nombre LIKE 'M%'
+ORDER BY nombre;
+
+SELECT
+Entrenador.nombre || ' ' || Entrenador.apellidos,
+Equipos.Nombre_Equipo
+FROM Entrenador
+JOIN Entrenan
+ON Entrenador.nif = Entrenan.nif
+JOIN Equipos
+ON Entrenan.nombre_equipo = Equipos.nombre_equipo;
+
+SELECT
 e.nombre_equipo, c.nombre
 from equipos as e
 JOIN juegan as j
