@@ -21,3 +21,16 @@ FROM campeonato
 JOIN Empresas ON Empresas.CIF = campeonato.CIF
 WHERE Empresas.CIF = '12465'
 ORDER BY campeonato.anyo
+
+
+//nombre de los equipos y por quién están patrocinados
+
+SELECT
+Equipos.Nombre_Equipo AS 'Equipo',
+Empresas.nombre AS 'patrocinado por'
+FROM Equipos
+JOIN patrocinado_por
+ON Equipos.Nombre_Equipo = patrocinado_por.Nombre_Equipo
+JOIN Empresas
+ON patrocinado_por.cif = Empresas.cif
+
