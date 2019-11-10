@@ -1,7 +1,7 @@
 .open baloncesto.db
 
 select
-"Campeonato del año " || Campeonato.anyo || " patrocinado por " || Empresas.nombre || Empresa.CIF, 
+"Campeonato del año " || Campeonato.anyo || " patrocinado por " || Empresas.nombre || Empresas.CIF, 
 e.Nombre_Equipo, c.nombre, ca.Comunidad_Autonoma
 from Ciudades as c, Comunidades_Autonomas as ca, Equipos as e, Campeonato, Empresas
 join Ciudad_pertenece_ca as cp
