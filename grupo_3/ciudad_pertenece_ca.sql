@@ -7,9 +7,11 @@ PRIMARY KEY (nombre, Comunidad_Autonoma),
 FOREIGN KEY (nombre) REFERENCES Ciudad(nombre),
 FOREIGN KEY (Comunidad_Autonoma) REFERENCES Comunidades_Autonomas (Comunidad_Autonoma));
 
-INSERT INTO Ciudad_pertenece_ca VALUES ('Madrid', 'Comunidad de Madrid');
-INSERT INTO Ciudad_pertenece_ca VALUES ('Valencia', 'Comunidad Valencia');
-INSERT INTO Ciudad_pertenece_ca VALUES ('Barcelona', 'Cataluña');
-INSERT INTO Ciudad_pertenece_ca VALUES ('Leon', 'Castilla y Leon');
-INSERT INTO Ciudad_pertenece_ca VALUES ('Girona', 'Cataluña');
-INSERT INTO Ciudad_pertenece_ca VALUES ('Orense', 'Galicia');
+INSERT INTO Ciudad_pertenece_ca VALUES ('Comunidad de Madrid','Madrid');
+INSERT INTO Ciudad_pertenece_ca VALUES ('Comunidad Valencia','Valencia');
+INSERT INTO Ciudad_pertenece_ca VALUES ('Cataluña','Barcelona' );
+INSERT INTO Ciudad_pertenece_ca VALUES ('Castilla y Leon','Leon');
+INSERT INTO Ciudad_pertenece_ca VALUES ('Cataluña','Girona');
+INSERT INTO Ciudad_pertenece_ca VALUES ('Galicia','Orense');
+INSERT INTO Ciudad_pertenece_ca VALUES ('Galicia','Vigo');
+
