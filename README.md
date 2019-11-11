@@ -2,7 +2,8 @@
 
 * Cada grupo subirá una carpeta con sus tablas en formato nombrescript.sql
 * Las carpetas llevarán nombre tipo grupo_# siendo (# el número del grupo)
-* La primera linea de cada script deberá ser .open baloncesto.db para poder incluirse en la base de datos
+* Un script leerá las tablas.
+* Todos los .sql se encontrarán dentro de las carpetas de cada grupo con una primera linea .open baloncesto.db
 
 # Diagrama ER de una liga de baloncesto
 *  En el Reino de España tiene lugar una liga de baloncesto a nivel nacional.
