@@ -72,3 +72,17 @@ join Ciudad_pertenece_ca as cp
 on cp.nombre = c.nombre and cp.Comunidad_Autonoma = ca.Comunidad_Autonoma
 join Tienen
 on Tienen.Nombre_Equipo = Equipos.Nombre_Equipo and Tienen.Nombre_Ciudad = c.nombre;
+
+
+
+SELECT
+e.nombre_equipo, p.id_partido
+FROM partido AS p
+JOIN juegan AS j
+ON j.id_partido = p.id_partido
+JOIN equipos AS e
+ON e.nombre_equipo = j.nombre_equipo
+ORDER BY p.id_partido
+
+
+
