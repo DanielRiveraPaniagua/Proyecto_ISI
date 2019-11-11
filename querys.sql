@@ -83,10 +83,10 @@ SELECT
 Empresas.nombre,
 campeonato.anyo
 FROM Empresas
-JOIN participan
-ON empresas.CIF = participan.CIF
+JOIN patrocinan
+ON empresas.CIF = patrocinan.CIF
 JOIN campeonato
-ON participan.anyo = campeonato.anyo
+ON patrocinan.anyo = campeonato.anyo
 LIMIT 10
 
 
