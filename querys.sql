@@ -31,6 +31,6 @@ JOIN juegan AS j
 ON j.id_partido = p.id_partido
 JOIN equipos AS e
 ON e.nombre_equipo = j.nombre_equipo
-GROUP BY p.id_partido
+ORDER BY p.id_partido
 
 
