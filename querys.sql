@@ -74,11 +74,20 @@ join Tienen
 on Tienen.Nombre_Equipo = Equipos.Nombre_Equipo and Tienen.Nombre_Ciudad = c.nombre;
 
 
+SELECT
+e.nombre_equipo, p.id_partido
+FROM partido AS p
+JOIN juegan AS j
+ON j.id_partido = p.id_partido
+JOIN equipos AS e
+ON e.nombre_equipo = j.nombre_equipo
+ORDER BY p.id_partido
+
+
 --QUERIES GRUPO 4
 
 
 //empresas que patrocinan los campeonatos y en que año los han patrocinado
-
 SELECT
 Empresas.nombre,
 campeonato.anyo
@@ -91,7 +100,6 @@ LIMIT 10
 
 
 //fecha de inicio y fin de los campeonatos patrocinados por Adidas
-
 SELECT
 campeonato.fecha_in AS 'Empieza',
 campeonato.fecha_fin AS 'Acaba',
@@ -103,7 +111,6 @@ ORDER BY campeonato.anyo
 
 
 //nombre de los equipos y por quién están patrocinados
-
 SELECT
 Equipos.Nombre_Equipo AS 'Equipo',
 Empresas.nombre AS 'patrocinado por'
@@ -112,5 +119,6 @@ JOIN patrocinado_por
 ON Equipos.Nombre_Equipo = patrocinado_por.Nombre_Equipo
 JOIN Empresas
 ON patrocinado_por.cif = Empresas.cif
+
 
 
